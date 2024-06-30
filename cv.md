@@ -12,6 +12,10 @@ _Hey! My name is Liubovi. I'm from Chisinau, Moldova. My main goal is to become 
 
 HTML, CSS, SCSS+SASS, JavaScript, Java Basics, Bootstrap
 
+### LEVEL OF ENGLISH
+
+INTERMEDIATE B2
+
 ### CONTACTS
 
 - calinevaliubovi2@gmail.com
