@@ -1,5 +1,7 @@
 # Calineva Liubovi
 
+![foto](assets/img/1.jpg)
+
 ## FRONTEND DEVELOPER
 
 ### ABOUT ME
