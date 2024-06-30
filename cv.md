@@ -10,10 +10,12 @@ _Hey! My name is Liubovi. I'm from Chisinau, Moldova. My main goal is to become 
 
 ### SKILLS
 
+HTML, CSS, SCSS+SASS, JavaScript, Java Basics, Bootstrap
+
 ### CONTACTS
 
 - calinevaliubovi2@gmail.com
 
-- [calinevaliubovi](https://github.com/calinevaliubovi)
+- [GitHub - calinevaliubovi](https://github.com/calinevaliubovi)
 
 - +373-69-95-73-74
