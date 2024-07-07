@@ -1,3 +1,117 @@
+:root {
+  --main-color: rgb(60, 97, 105);
+  --font-color: #fff;
+  --font-color-1: rgb(6, 26, 30);
+  --font-color-2: rgb(4, 51, 61);
+  --font-color-3: rgb(2, 127, 155);
+}
+
 body {
-  background-color: rgb(201, 184, 216);
+  color: var(--font-color-1);
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.content_left {
+  background-color: var(--main-color);
+  color: var(--font-color);
+  padding: 2rem;
+  max-width: 20%;
+  margin: 20px 20px 0 0;
+}
+
+.header-info {
+  text-align: center;
+}
+
+h1 {
+  box-sizing: border-box;
+  margin: 7px auto;
+}
+
+.h1__item {
+  font-size: 30px;
+}
+
+.h2 {
+  text-transform: uppercase;
+  background-color: var(--main-color);
+  color: var(--font-color);
+  padding: 5px 20px;
+}
+
+.img {
+  padding-top: 10px;
+  max-width: 90%;
+}
+
+.nav {
+  margin-top: 30px;
+}
+a {
+  text-decoration: none;
+}
+.nav__item {
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.h2__info {
+  text-transform: uppercase;
+}
+
+p {
+  padding-left: 20px;
+}
+
+.projects__item,
+.education__item,
+.contacts__item {
+  text-decoration: none;
+  color: var(--font-color-1);
+  line-height: 1.2;
+}
+.skills__item {
+  line-height: 1.2;
+}
+
+.projects__item:hover,
+.education__item:hover,
+.contacts__item:hover {
+  color: var(--font-color-3);
+  text-decoration-line: underline;
+}
+
+.nav__item:hover {
+  color: var(--font-color-2);
+}
+
+code {
+  font-size: 16px;
+}
+
+.contacts-info {
+  border-bottom: 2px solid var(--main-color);
+}
+
+.school-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.school-info__item {
+  font-size: 30px;
+}
+
+.school-link:hover {
+  border-bottom: 2px solid var(--main-color);
 }
