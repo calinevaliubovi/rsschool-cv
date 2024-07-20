@@ -161,6 +161,7 @@ li {
 .ourfriends {
   min-height: 877px;
   background-color: #f6f6f6;
+  background-size: cover;
   text-align: center;
 }
 
