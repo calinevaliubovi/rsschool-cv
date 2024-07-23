@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="imgMain/dog-svgrepo-com.svg" type="image/svg">
     <title>Main</title>
 </head>
 
@@ -13,16 +14,18 @@
     <div class="header-info">
         <div class="container_one">
             <header class="header">
-                <div class="header-logo">
-                    <div class="header-logo__title">Cozy House</div>
-                    <div class="header-logo__sub-title">Shelter for pets in Boston</div>
-                </div>
+                <a class="a" href="#">
+                    <div class="header-logo">
+                        <div class="header-logo__title">Cozy House</div>
+                        <div class="header-logo__sub-title">Shelter for pets in Boston</div>
+                    </div>
+                </a>
                 <nav class="header-nav">
                     <ul class="header-nav__ul">
-                        <li><a href="" class="header-nav__link">About the shelter</a></li>
-                        <li><a href="" class="header-nav__link">Our pets</a></li>
-                        <li><a href="" class="header-nav__link">Help the shelter</a></li>
-                        <li><a href="" class="header-nav__link">Contacts</a></li>
+                        <li><a href="" class="header-nav__link nav_1">About the shelter</a></li>
+                        <li><a href="pets.html" class="header-nav__link nav_2">Our pets</a></li>
+                        <li><a href="#help" class="header-nav__link nav_3">Help the shelter</a></li>
+                        <li><a href="#contacts" class="header-nav__link nav_4">Contacts</a></li>
                     </ul>
                 </nav>
             </header>
@@ -33,7 +36,7 @@
                         puppy with an extremely wide and open heart.
                         He or she will love you more than anybody else in the world, you will see!
                     </p>
-                    <button class="btn">Make a friend</button>
+                    <a href="#friends"><button class="btn">Make a friend</button></a>
                 </div>
                 <div class="notOnly__img">
                     <img src="imgMain/headerPuppy.png" alt="puppy">
@@ -68,7 +71,7 @@
             </div>
         </section>
         <section class="ourfriends">
-            <div class="container_one ourfriends-container">
+            <div class="container_one ourfriends-container" id="friends">
                 <button class="btn-1"><img src="imgMain/Arrow_left.png" alt="Arrow_left"></button>
                 <div class="conteiner_two">
                     <h2 class="h2__title ourfriends__title">Our friends who
@@ -94,9 +97,9 @@
                 </div>
                 <button class="btn-1"><img src="imgMain/Arrow_right.png" alt="Arrow_right"></button>
             </div>
-            <button class="btn btn-2">Get to know the rest</button>
+            <a href="pets.html"><button class="btn btn-2">Get to know the rest</button></a>
         </section>
-        <section class="help">
+        <section class="help" id="help">
             <h2 class="h2__title help__h2-title">How you can help
                 <br>our shelter
             </h2>
@@ -150,10 +153,12 @@
                     <div class="inAddition-info">
                         <h2 class="h2__title inAddition__h2-title">You can also <br>make a donation</h2>
                         <p class="inAddition-info__subtitle">Name of the bank / Type of bank account</p>
-                        <button class="inAddition-info__btn">
-                            <img class="inAddition__btn-icon" src="imgMain/credit-card.svg" alt="credit-card">
-                            8380 2880 8028 8791 7435
-                        </button>
+                        <a href="#btn" class="a">
+                            <button class="inAddition-info__btn" id="btn">
+                                <img class="inAddition__btn-icon" src="imgMain/credit-card.svg" alt="credit-card">
+                                8380 2880 8028 8791 7435
+                            </button>
+                        </a>
                         <p class="inAddition-info__text">Legal information and lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Maecenas a
                             ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et
@@ -163,29 +168,38 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contacts">
         <div class="container_one">
             <div class="footer-info">
                 <div class="footer-info__item footer-info__item-content_left">
                     <h2 class="h2__title footer-h2__title">For questions and suggestions</h2>
                     <div class="footer-info__item-content email">
-                        <img class="footer__email" src="imgMain/footer-icon-email.svg" alt="icon-email">
-                        email@shelter.com
+                        <a class="a footer-info__item-content" href="mailto:email@shelter.com" target="_blank">
+                            <img class="footer__email" src="imgMain/footer-icon-email.svg" alt="icon-email">
+                            email@shelter.com
+                        </a>
                     </div>
                     <div class="footer-info__item-content phone">
-                        <img class="footer__phone" src="imgMain/footer-icon-phone.svg" alt="icon-phone">
-                        +13 674 567 75 54
+                        <a class="a footer-info__item-content" href="tel:+136745677554" target="_blank">
+                            <img class="footer__phone" src="imgMain/footer-icon-phone.svg" alt="icon-phone">
+                            +13 674 567 75 54</a>
                     </div>
                 </div>
                 <div class="footer-info__item footer-info__item-content_center">
                     <h2 class="h2__title footer-h2__title">We are waiting for your visit</h2>
                     <div class="footer-info__item-content marker_1">
-                        <img class="footer__marker" src="imgMain/footer-icon-marker.png" alt="icon-marker">
-                        1 Central Street, Boston (entrance from the store)
+                        <a class="a footer-info__item-content"
+                            href="https://www.google.com/maps/search/1+Central+Street,+Boston/@42.3144858,-71.1350934,11z/data=!3m1!4b1?entry=ttu"
+                            target="_blank">
+                            <img class="footer__marker" src="imgMain/footer-icon-marker.png" alt="icon-marker">
+                            1 Central Street, Boston (entrance from the store)</a>
                     </div>
                     <div class="footer-info__item-content marker_2">
-                        <img class="footer__marker" src="imgMain/footer-icon-marker.png" alt="icon-marker">
-                        18 South Park, London
+                        <a class="a footer-info__item-content"
+                            href="https://www.google.com/maps/search/18+South+Park,+London/@51.5287398,-0.2664058,11z/data=!3m1!4b1?entry=ttu"
+                            target="_blank">
+                            <img class="footer__marker" src="imgMain/footer-icon-marker.png" alt="icon-marker">18 South
+                            Park, London</a>
                     </div>
                 </div>
                 <div class="footer-info-img-wrapper">

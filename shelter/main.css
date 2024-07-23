@@ -3,8 +3,17 @@
   --second-family: "Arial", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.a {
+  text-decoration: none;
+}
+
 .body {
   max-width: 1280px;
+  margin: 0 auto;
 }
 
 li {
@@ -63,7 +72,26 @@ li {
   font-weight: 400;
   font-size: 15px;
   line-height: 160%;
+  color: #cdcdcd;
+  transition: color 1s ease;
+}
+
+.nav_1 {
   color: #fafafa;
+  border-bottom: 3px solid #f1cdb3;
+}
+
+.nav_2:hover,
+.nav_3:hover,
+.nav_4:hover {
+  color: #fafafa;
+  cursor: pointer;
+}
+.nav_2:active,
+.nav_3:active,
+.nav_4:active {
+  color: #fafafa;
+  border-bottom: 3px solid #f1cdb3;
 }
 
 .notOnly {
@@ -109,6 +137,12 @@ li {
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
+  transition: background-color 1s ease;
+}
+
+.btn:hover {
+  background-color: #fddcc4;
+  cursor: pointer;
 }
 
 .notOnly__img img {
@@ -189,7 +223,18 @@ li {
 .ourfriends-card {
   width: 270px;
   text-align: center;
+  background-color: #fafafa;
+}
+
+.ourfriends-card:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
   background-color: #fff;
+  .ourfriends-card__btn {
+    border: 2px solid #fddcc4;
+    background-color: #fddcc4;
+    cursor: pointer;
+  }
 }
 
 .h3 {
@@ -212,6 +257,13 @@ li {
   height: 52px;
   background-color: #fff;
   margin-top: 161px;
+  transition: background-color 1s ease;
+}
+
+.btn-1:hover {
+  border: 2px solid #fddcc4;
+  background-color: #fddcc4;
+  cursor: pointer;
 }
 
 .ourfriends-card__btn {
@@ -228,6 +280,13 @@ li {
   letter-spacing: 0.06em;
   color: #292929;
   background-color: #fff;
+  transition: background-color 1s ease;
+}
+
+.ourfriends-card__btn:hover {
+  border: 2px solid #fddcc4;
+  background-color: #fddcc4;
+  cursor: pointer;
 }
 
 .btn-2 {
@@ -296,6 +355,10 @@ li {
   padding-top: 19px;
 }
 
+a.inAddition-info__btn {
+  text-decoration: none;
+}
+
 .inAddition-info__btn {
   border: none;
   border-radius: 9px;
@@ -312,6 +375,12 @@ li {
   gap: 14px;
   align-items: center;
   justify-content: center;
+  transition: background-color 1s ease;
+}
+
+.inAddition-info__btn:hover {
+  background-color: #fddcc4;
+  cursor: pointer;
 }
 
 .inAddition-info__text {

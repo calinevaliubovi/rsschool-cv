@@ -3,8 +3,13 @@
   --second-family: "Arial", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .body {
   max-width: 1280px;
+  margin: 0 auto;
 }
 
 li {
@@ -25,6 +30,10 @@ li {
 
 .header-logo {
   padding-top: 2px;
+}
+
+.a {
+  text-decoration: none;
 }
 
 .header-logo__title {
@@ -58,6 +67,23 @@ li {
   font-size: 15px;
   line-height: 160%;
   color: #545454;
+  transition: color 1s ease;
+}
+
+.nav_1:hover,
+.nav_2:hover,
+.nav_3:hover,
+.nav_4:hover {
+  color: #292929;
+  cursor: pointer;
+}
+
+.nav_1:active,
+.nav_2:active,
+.nav_3:active,
+.nav_4:active {
+  color: #fafafa;
+  border-bottom: 3px solid #f1cdb3;
 }
 
 .ourfriends {
@@ -93,7 +119,7 @@ li {
 .ourfriends-card {
   width: 270px;
   text-align: center;
-  background-color: #fff;
+  background-color: #fafafa;
 }
 
 .h3 {
@@ -123,6 +149,24 @@ li {
   letter-spacing: 0.06em;
   color: #292929;
   background-color: #fff;
+  transition: background-color 1s ease;
+}
+
+.ourfriends-card__btn:hover {
+  border: 2px solid #fddcc4;
+  background-color: #fddcc4;
+  cursor: pointer;
+}
+
+.ourfriends-card:hover {
+  box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
+  cursor: pointer;
+  background-color: #fff;
+  .ourfriends-card__btn {
+    border: 2px solid #fddcc4;
+    background-color: #fddcc4;
+    cursor: pointer;
+  }
 }
 
 .ourfriends-buttons {
@@ -135,10 +179,34 @@ li {
 
 .btn-1 {
   border-radius: 100px;
-  border: 2px solid #f1cdb3;
   width: 52px;
   height: 52px;
+  transition: background-color 1s ease;
+}
+
+.btn-1_left {
+  border: 2px solid #cdcdcd;
+  border-radius: 100px;
+  color: #cdcdcd;
   background-color: #fff;
+}
+
+.btn-1_center {
+  border: 2px solid #f1cdb3;
+  background-color: #f1cdb3;
+  transition: background-color 1s ease;
+}
+
+.btn-1_right {
+  border: 2px solid #f1cdb3;
+  background-color: #fff;
+  transition: background-color 1s ease;
+}
+
+.btn-1_right:hover {
+  cursor: pointer;
+  border: 2px solid #fddcc4;
+  background-color: #fddcc4;
 }
 
 .footer {
