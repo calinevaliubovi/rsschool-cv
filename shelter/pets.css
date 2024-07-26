@@ -70,8 +70,12 @@ li {
   transition: color 1s ease;
 }
 
+.nav_2 {
+  color: #292929;
+  border-bottom: 3px solid #f1cdb3;
+}
+
 .nav_1:hover,
-.nav_2:hover,
 .nav_3:hover,
 .nav_4:hover {
   color: #292929;
@@ -79,7 +83,6 @@ li {
 }
 
 .nav_1:active,
-.nav_2:active,
 .nav_3:active,
 .nav_4:active {
   color: #fafafa;
